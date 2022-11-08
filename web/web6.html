@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>前端模块化 | 个人主页</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/blog-vuepress/img/logo.ico">
+    <link rel="apple-touch-icon" href="/blog-vuepress/img/logo.png">
+    <meta name="description" content="姜帅杰的博客">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+    
+    <link rel="preload" href="/blog-vuepress/assets/css/0.styles.dae9672e.css" as="style"><link rel="preload" href="/blog-vuepress/assets/js/app.ee323f4a.js" as="script"><link rel="preload" href="/blog-vuepress/assets/js/3.2310a71e.js" as="script"><link rel="preload" href="/blog-vuepress/assets/js/1.9baa0dfb.js" as="script"><link rel="preload" href="/blog-vuepress/assets/js/77.81ee5317.js" as="script"><link rel="prefetch" href="/blog-vuepress/assets/js/10.ca9ad2fa.js"><link rel="prefetch" href="/blog-vuepress/assets/js/11.1c791f02.js"><link rel="prefetch" href="/blog-vuepress/assets/js/12.757fc150.js"><link rel="prefetch" href="/blog-vuepress/assets/js/13.f15b5320.js"><link rel="prefetch" href="/blog-vuepress/assets/js/14.e2677b07.js"><link rel="prefetch" href="/blog-vuepress/assets/js/15.1b25fa33.js"><link rel="prefetch" href="/blog-vuepress/assets/js/16.18826e8c.js"><link rel="prefetch" href="/blog-vuepress/assets/js/17.32a38985.js"><link rel="prefetch" href="/blog-vuepress/assets/js/18.0088789b.js"><link rel="prefetch" href="/blog-vuepress/assets/js/19.b53057c5.js"><link rel="prefetch" href="/blog-vuepress/assets/js/20.ba76f259.js"><link rel="prefetch" href="/blog-vuepress/assets/js/21.b5fd2ca0.js"><link rel="prefetch" href="/blog-vuepress/assets/js/22.c9e8aeba.js"><link rel="prefetch" href="/blog-vuepress/assets/js/23.0006750b.js"><link rel="prefetch" href="/blog-vuepress/assets/js/24.64a71617.js"><link rel="prefetch" href="/blog-vuepress/assets/js/25.8715092c.js"><link rel="prefetch" href="/blog-vuepress/assets/js/26.5278e9de.js"><link rel="prefetch" href="/blog-vuepress/assets/js/27.d61daa2c.js"><link rel="prefetch" href="/blog-vuepress/assets/js/28.234358fe.js"><link rel="prefetch" href="/blog-vuepress/assets/js/29.4032dc30.js"><link rel="prefetch" href="/blog-vuepress/assets/js/30.a4ef063a.js"><link rel="prefetch" href="/blog-vuepress/assets/js/31.8343fcd5.js"><link rel="prefetch" href="/blog-vuepress/assets/js/32.f2ff3a25.js"><link rel="prefetch" href="/blog-vuepress/assets/js/33.8d5f1cea.js"><link rel="prefetch" href="/blog-vuepress/assets/js/34.a585d057.js"><link rel="prefetch" href="/blog-vuepress/assets/js/35.787cdbd3.js"><link rel="prefetch" href="/blog-vuepress/assets/js/36.d7420075.js"><link rel="prefetch" href="/blog-vuepress/assets/js/37.92d21beb.js"><link rel="prefetch" href="/blog-vuepress/assets/js/38.e8a8a447.js"><link rel="prefetch" href="/blog-vuepress/assets/js/39.c571e7d8.js"><link rel="prefetch" href="/blog-vuepress/assets/js/4.779f4f0c.js"><link rel="prefetch" href="/blog-vuepress/assets/js/40.f0fcabaa.js"><link rel="prefetch" href="/blog-vuepress/assets/js/41.6bb0da27.js"><link rel="prefetch" href="/blog-vuepress/assets/js/42.e1b3e650.js"><link rel="prefetch" href="/blog-vuepress/assets/js/43.c8635dee.js"><link rel="prefetch" href="/blog-vuepress/assets/js/44.c1f479b6.js"><link rel="prefetch" href="/blog-vuepress/assets/js/45.1b6effc0.js"><link rel="prefetch" href="/blog-vuepress/assets/js/46.67a11bdc.js"><link rel="prefetch" href="/blog-vuepress/assets/js/47.a4376c17.js"><link rel="prefetch" href="/blog-vuepress/assets/js/48.3fdb1b8f.js"><link rel="prefetch" href="/blog-vuepress/assets/js/49.f1e0ce3b.js"><link rel="prefetch" href="/blog-vuepress/assets/js/5.7332fce2.js"><link rel="prefetch" href="/blog-vuepress/assets/js/50.e72f0460.js"><link rel="prefetch" href="/blog-vuepress/assets/js/51.aaaeb400.js"><link rel="prefetch" href="/blog-vuepress/assets/js/52.84eb5dbd.js"><link rel="prefetch" href="/blog-vuepress/assets/js/53.516cdbff.js"><link rel="prefetch" href="/blog-vuepress/assets/js/54.31b182da.js"><link rel="prefetch" href="/blog-vuepress/assets/js/55.841ec312.js"><link rel="prefetch" href="/blog-vuepress/assets/js/56.fb5c76eb.js"><link rel="prefetch" href="/blog-vuepress/assets/js/57.328572b8.js"><link rel="prefetch" href="/blog-vuepress/assets/js/58.be559241.js"><link rel="prefetch" href="/blog-vuepress/assets/js/59.51af82c5.js"><link rel="prefetch" href="/blog-vuepress/assets/js/6.a668334c.js"><link rel="prefetch" href="/blog-vuepress/assets/js/60.fca5ae47.js"><link rel="prefetch" href="/blog-vuepress/assets/js/61.ad810eea.js"><link rel="prefetch" href="/blog-vuepress/assets/js/62.c2d2120a.js"><link rel="prefetch" href="/blog-vuepress/assets/js/63.92e60e69.js"><link rel="prefetch" href="/blog-vuepress/assets/js/64.a81856d1.js"><link rel="prefetch" href="/blog-vuepress/assets/js/65.d6d5c47e.js"><link rel="prefetch" href="/blog-vuepress/assets/js/66.a2aa6d11.js"><link rel="prefetch" href="/blog-vuepress/assets/js/67.2d1b0f2b.js"><link rel="prefetch" href="/blog-vuepress/assets/js/68.37e26153.js"><link rel="prefetch" href="/blog-vuepress/assets/js/69.db0252c7.js"><link rel="prefetch" href="/blog-vuepress/assets/js/7.05d112ea.js"><link rel="prefetch" href="/blog-vuepress/assets/js/70.810a47c2.js"><link rel="prefetch" href="/blog-vuepress/assets/js/71.9ff2b655.js"><link rel="prefetch" href="/blog-vuepress/assets/js/72.2b6e06f5.js"><link rel="prefetch" href="/blog-vuepress/assets/js/73.1fe0d86f.js"><link rel="prefetch" href="/blog-vuepress/assets/js/74.307f8579.js"><link rel="prefetch" href="/blog-vuepress/assets/js/75.b79176d6.js"><link rel="prefetch" href="/blog-vuepress/assets/js/76.6b72e0ea.js"><link rel="prefetch" href="/blog-vuepress/assets/js/78.87a1a4d0.js"><link rel="prefetch" href="/blog-vuepress/assets/js/79.510c7f54.js"><link rel="prefetch" href="/blog-vuepress/assets/js/8.2853d7a3.js"><link rel="prefetch" href="/blog-vuepress/assets/js/9.ee0bcae8.js">
+    <link rel="stylesheet" href="/blog-vuepress/assets/css/0.styles.dae9672e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog-vuepress/" class="home-link router-link-active"><!----> <span class="site-name">个人主页</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog-vuepress/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="博文" class="dropdown-title"><span class="title">博文</span> <span class="arrow down"></span></button> <button type="button" aria-label="博文" class="mobile-dropdown-title"><span class="title">博文</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog-vuepress/android/" class="nav-link">
+  Android
+</a></li><li class="dropdown-item"><!----> <a href="/blog-vuepress/ios/" class="nav-link">
+  ios
+</a></li><li class="dropdown-item"><!----> <a href="/blog-vuepress/web/" class="nav-link router-link-active">
+  Web
+</a></li><li class="dropdown-item"><!----> <a href="/blog-vuepress/hybrid/" class="nav-link">
+  Hybrid
+</a></li><li class="dropdown-item"><!----> <a href="/blog-vuepress/unity/" class="nav-link">
+  unity
+</a></li><li class="dropdown-item"><!----> <a href="/blog-vuepress/artificial/" class="nav-link">
+  人工智能
+</a></li><li class="dropdown-item"><!----> <a href="/blog-vuepress/opencv/" class="nav-link">
+  opencv
+</a></li></ul></div></div><div class="nav-item"><a href="https://www.github.com/codeteenager" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog-vuepress/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="博文" class="dropdown-title"><span class="title">博文</span> <span class="arrow down"></span></button> <button type="button" aria-label="博文" class="mobile-dropdown-title"><span class="title">博文</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog-vuepress/android/" class="nav-link">
+  Android
+</a></li><li class="dropdown-item"><!----> <a href="/blog-vuepress/ios/" class="nav-link">
+  ios
+</a></li><li class="dropdown-item"><!----> <a href="/blog-vuepress/web/" class="nav-link router-link-active">
+  Web
+</a></li><li class="dropdown-item"><!----> <a href="/blog-vuepress/hybrid/" class="nav-link">
+  Hybrid
+</a></li><li class="dropdown-item"><!----> <a href="/blog-vuepress/unity/" class="nav-link">
+  unity
+</a></li><li class="dropdown-item"><!----> <a href="/blog-vuepress/artificial/" class="nav-link">
+  人工智能
+</a></li><li class="dropdown-item"><!----> <a href="/blog-vuepress/opencv/" class="nav-link">
+  opencv
+</a></li></ul></div></div><div class="nav-item"><a href="https://www.github.com/codeteenager" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/blog-vuepress/web/" aria-current="page" class="sidebar-link">VuePress从零开始搭建自己的博客</a></li><li><a href="/blog-vuepress/web/web1.html" class="sidebar-link">Node.js初探</a></li><li><a href="/blog-vuepress/web/web2.html" class="sidebar-link">WebStorm运行React Native配置</a></li><li><a href="/blog-vuepress/web/web3.html" class="sidebar-link">前端开发规范</a></li><li><a href="/blog-vuepress/web/web4.html" class="sidebar-link">前端开发者必备的技能</a></li><li><a href="/blog-vuepress/web/web5.html" class="sidebar-link">Javascript设计模式详解</a></li><li><a href="/blog-vuepress/web/web6.html" aria-current="page" class="active sidebar-link">前端模块化</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog-vuepress/web/web6.html#commonjs" class="sidebar-link">CommonJS</a></li><li class="sidebar-sub-header"><a href="/blog-vuepress/web/web6.html#amd" class="sidebar-link">AMD</a></li><li class="sidebar-sub-header"><a href="/blog-vuepress/web/web6.html#es6模块化" class="sidebar-link">ES6模块化</a></li><li class="sidebar-sub-header"><a href="/blog-vuepress/web/web6.html#样式文件中的模块化" class="sidebar-link">样式文件中的模块化</a></li></ul></li><li><a href="/blog-vuepress/web/web7.html" class="sidebar-link">前端构建工具</a></li><li><a href="/blog-vuepress/web/web8.html" class="sidebar-link">webpack从入门到精通</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="前端模块化"><a href="#前端模块化" class="header-anchor">#</a> 前端模块化</h1> <p>模块化是指将一个复杂的系统分解为多个模块以方便编码 。</p> <h2 id="commonjs"><a href="#commonjs" class="header-anchor">#</a> CommonJS</h2> <p>CommonJS (http://www.commonjs.org)是一种被广泛使用的 JavaScript 模块化规范，其核心思想是通过 require方法来同步加载依赖的其他模块，通过module.exports导出需要暴露的接口。CommonJS规范的流行得益于Node.js采用了这种方式，后来这种方式被引入到了网页开发中。例如：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 导入</span>
+<span class="token keyword">const</span> moduleA <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./moduleA'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+<span class="token comment">// 导出</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> moduleA<span class="token punctuation">.</span>someFunc<span class="token punctuation">;</span>
+</code></pre></div><p>CommonJS 的优点在于:</p> <ul><li>代码可复用于 Node.js 环境下井运行，例如做同构应用:</li> <li>通过Npm发布的很多第三方模块都采用了CommonJS规范。</li></ul> <p>CommonJS的缺点在于，这样的代码无法直接运行在浏览器环境下，必须通过工具转换成标准的ES5。
+CommonJS还可以细分为CommonJS1 和 CommonJS2，区别在于CommonJS1只能通过exports.XX=XX的方式导出，而CommonJS2在CommonJS1的基础上加入了module.exports=XX的导出方式。CommonJS通常指 CommonJS2。</p> <h2 id="amd"><a href="#amd" class="header-anchor">#</a> AMD</h2> <p>AMD(https://en.wikipedia.org/wiki/Asynchronous_module_definition)也是一种 JavaScript模块化规范，与CommonJS最大的不同在于，它采用了异步的方式去加载依赖的模块。AMD
+规范主要用于解决针对浏览器环境的模块化问题，最具代表性的实现是requirejs.org)。例如：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 定义一个模块</span>
+<span class="token function">define</span> <span class="token punctuation">(</span><span class="token string">'module'</span> <span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'dep'</span><span class="token punctuation">]</span> <span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">dep</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+ <span class="token keyword">return</span> exports<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">//导入和使用</span>
+<span class="token function">require</span> <span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'module'</span><span class="token punctuation">]</span> <span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">module</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>AMD 的优点在于:</p> <ul><li>可在不转换代码的情况下直接在浏览器中运行。</li> <li>可异步加载依赖。</li> <li>可并行加载多个依赖。</li> <li>代码可运行在浏览器环境和Node.js环境下。</li></ul> <p>AMD的缺点在于JavaScript运行环境没有原生支持AMD，需要先导入实现了AMD的库后才能正常使用。</p> <h2 id="es6模块化"><a href="#es6模块化" class="header-anchor">#</a> ES6模块化</h2> <p>ES6模块化是国际标准化组织ECMA提出的JavaScript模块化规范，它在语言层面上实现了模块化。浏览器厂商和 Node. 都宣布要原生支持该规范。它将逐渐取代CommonJS和AMD规范，成为浏览器和服务器通用的模块解决方案 。
+采用ES6模块化导入及导出的代码如下:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">//导 入</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> readFile <span class="token punctuation">}</span> from ’ fs ’<span class="token punctuation">;</span> 
+<span class="token keyword">import</span> React from ’react’<span class="token punctuation">;</span> <span class="token comment">//导出</span>
+<span class="token keyword">export</span> <span class="token keyword">function</span> hello <span class="token punctuation">{</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span> 
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+<span class="token comment">//...</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><p>ES6模块虽然是终极模块化方案，但它的缺点在于目前无法直接运行在大部分JavaScript
+运行环境下，必须通过工具转换成标准的ES5后才能正常运行。</p> <h2 id="样式文件中的模块化"><a href="#样式文件中的模块化" class="header-anchor">#</a> 样式文件中的模块化</h2> <p>除了JavaScript开始进行模块化改造，前端开发里的样式文件也支持模块化。以scss为例，将一些常用的样式片段放进一个通用的文件里，再在另一个文件里通过@import语句导入和使用这些样式片段:</p> <div class="language-css extra-class"><pre class="language-css"><code>//util.scss 文件
+//定义样式片段
+<span class="token atrule"><span class="token rule">@mixin</span> center</span> <span class="token punctuation">{</span> 
+    //水平坚直居中 
+    <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span> 
+    <span class="token property">left</span><span class="token punctuation">:</span> 50%<span class="token punctuation">;</span>
+    <span class="token property">top</span><span class="token punctuation">:</span> 50%<span class="token punctuation">;</span>
+    <span class="token property">transform</span> <span class="token punctuation">:</span> <span class="token function">translate</span><span class="token punctuation">(</span> -50%，-50%<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+// main.scss 文件
+//导入和使用util.scss中定义的样式片段 
+<span class="token atrule"><span class="token rule">@import</span> <span class="token string">&quot;util&quot;</span><span class="token punctuation">;</span></span>
+<span class="token selector">#box</span><span class="token punctuation">{</span>
+<span class="token atrule"><span class="token rule">@include</span> center <span class="token punctuation">;</span></span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">11/8/2022, 9:55:12 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blog-vuepress/web/web5.html" class="prev">
+        Javascript设计模式详解
+      </a></span> <span class="next"><a href="/blog-vuepress/web/web7.html">
+        前端构建工具
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/blog-vuepress/assets/js/app.ee323f4a.js" defer></script><script src="/blog-vuepress/assets/js/3.2310a71e.js" defer></script><script src="/blog-vuepress/assets/js/1.9baa0dfb.js" defer></script><script src="/blog-vuepress/assets/js/77.81ee5317.js" defer></script>
+  </body>
+</html>
